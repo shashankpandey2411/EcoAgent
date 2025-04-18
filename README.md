@@ -227,9 +227,3 @@ Data from different sources is prioritized based on:
 1. **Assessment Depth**: Different weights applied to each data source depending on depth level
 2. **Data Quality**: Sources with more specific metrics are weighted higher
 3. **Conflict Resolution**: When sources disagree, the agent identifies the conflict and favors technical data in the final score
-
-## Notes
-
-- This implementation uses mock data for demonstration purposes
-- In a production environment, you would replace mock implementations with real APIs
-- For the Gemini API integration, you would need to add your API key
